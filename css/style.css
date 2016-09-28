@@ -1,0 +1,23 @@
+h1, label, .result p {
+    text-align: center;
+}
+
+form * {
+    display: block;
+}
+
+input, select, button, .result {
+    margin: 5px auto;
+}
+
+.result {
+    border: solid black 2px;
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+.result p {
+    font-weight: 600;
+    color: green;
+}
+
