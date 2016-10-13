@@ -12,7 +12,7 @@ class KnapSackController {
             $path = $_POST['path'];
             $size = (int)$_POST['size'];
 
-            if($algorithm==='greedy_decide') {
+            if($algorithm === 'greedy_decide') {
                 $crv = new Model\GreedyDecideKnapsackClass($path, $size);
                 $result = $crv->algorithm();
 
