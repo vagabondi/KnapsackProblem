@@ -1,8 +1,6 @@
 <?php
 namespace App\Model;
 
-include 'Algoritm.php';
-
 class GreedyDecideKnapsackClass extends Algorithm
 {
     public function __construct($path, $capacity)

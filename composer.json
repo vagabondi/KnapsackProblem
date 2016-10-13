@@ -1,0 +1,8 @@
+{
+  "autoload": {
+    "classmap": [
+      "App/Controller/KnapsackController.php",
+      "App/Model"
+    ]
+  }
+}

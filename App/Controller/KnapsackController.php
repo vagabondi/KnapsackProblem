@@ -1,9 +1,7 @@
 <?php
 namespace App\Controller;
 
-use App\Model;
-
-include 'GreedyDecideKnapsack.php';
+use \App\Model as Model;
 
 class KnapSackController {
 
@@ -21,6 +19,7 @@ class KnapSackController {
                 return $result;
             }
         }
+        return false;
     }
 }
 

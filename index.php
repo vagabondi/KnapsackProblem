@@ -1,4 +1,4 @@
-<?php include 'App/KnapsackController.php' ?>
+<?php require 'vendor/autoload.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,7 +21,7 @@
         </form>
         <div class="result">
             <?php
-                $result = App\Controller\KnapSackController::getResults();
+                $result = \App\Controller\KnapSackController::getResults();
             ?>
             <p>Chosen items id: <?php
                 foreach ($result['chosen_items'] as $id) {
